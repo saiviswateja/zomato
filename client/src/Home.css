@@ -1,0 +1,104 @@
+.home{
+    height: 60vh;
+    background-image: url(https://b.zmtcdn.com/data/images/order/home_page_bg.jpg?output-format=webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_heading{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+    margin-right: 6%;
+    /* background-color: aqua; */
+    height: 60%;
+}
+
+.banner_heading > span{
+    font-family: 'Roboto';font-size: 22px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 230%;
+    letter-spacing: 3px;
+    margin-bottom: 1%;
+    flex-wrap: nowrap;
+    /* background-color: aquamarine; */
+}
+
+.banner_heading > span:nth-child(2){
+    font-weight: 100;
+    font-size: 100%;
+    letter-spacing: 2px;
+}
+
+.banner_input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_input > select{
+    flex: 1;
+    height: 220%;
+    border-radius: 5px;
+    margin-right: 2pt;
+}
+
+.banner_input > div{
+    flex: 3;
+    height: 200%;
+    margin-right: 2pt;
+    display: flex;
+    border: none;
+}
+
+.banner_input > div > input{
+    height: 100%;
+    width: 90%;
+}
+
+.banner_input > div> button{
+    background-color: #FFFFFF;
+    border: none;
+    width: 20%;
+    color: #099E44;
+    font-family: 'Roboto';font-size: 15px;
+}
+
+.banner_input > button{
+    flex: 1;
+    background-color: #099E44;
+    color: #FFFFFF;
+    font-size: 120%;
+    border-radius: 5px;
+    height: 200%;
+}
+.banner_heading > button{
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    .home{
+        background-image: url(https://b.zmtcdn.com/images/foodshots/cover_mobile/pizza3.jpg);
+    }
+    .banner_input > button{
+        display: none;
+    }
+    .banner_heading > button{
+        margin-top: 10% ;
+        display: block;
+        height: 30%;
+        background-color: #099E44;
+        color: #FFFFFF;
+    }
+    .banner_input > div > input{
+        width: 80%;
+    }
+    
+    .banner_input > div> button{
+        width: 30%;
+        color: #099E44;
+    }
+}
