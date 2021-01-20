@@ -33,6 +33,10 @@ nav > ul li{
   padding:2%
 }
 
+nav > ul li:hover{
+  color: #282C35;
+}
+
 nav > ul li:last-child{
   border: 1px solid #ffffff;
   border-radius: 2px;

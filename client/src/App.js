@@ -5,6 +5,8 @@ import HomeDescription from './components/HomeDescription';
 import HomeFooter from './components/HomeFooter';
 import Navbar from './components/Navbar';
 
+// API key: AIzaSyD1-ZMXzUX9S-cAjb33L2JJzDeN4bWzN40
+
 function App() {
   return (
     <>
